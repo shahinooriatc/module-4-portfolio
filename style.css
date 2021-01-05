@@ -4,8 +4,15 @@
     padding: 0%;
     list-style: none;
     text-decoration: none;
-    font-family: 'Merriweather', serif;
-    color: rgb(248, 141, 0);
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;    
+}
+img{
+    width: 95%;
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
 }
 /*------Default clear for Float left or Right ------*/
 .clearfix::after{
@@ -14,13 +21,144 @@
     clear: both;
 }
 /*------Fixed Width for page ------*/
-.fixwide{
 
+.fixedwidth{
+    width: 1240px;
 }
 body{
-    background-color: gray;
+    width: 1280px;
+}
+section{
+    height: 600px;
+    margin-top: 35px; 
+    border-bottom: 5px solid gray;
 }
 /*------Start  header section ------*/
-.header{
+.head{
+    background-image:url(/images/top-banner.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.half-sizing{
+    height: 480px;
+    width: 40%;
+    margin-left: 8%;
+    float: left;
+}
+.head-half>img{
+    width: 90%;  
+    transition: transform .4s;
+}
+.half-sizing>img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
     
 }
+.half-sizing>h4{
+    color: darkorange;
+}
+.shahinoor{
+    color: tomato;
+}
+button{
+    background-color: #FA6D59;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: right; 
+}
+.profile{
+    background-color: #FFC31F;
+}
+.profile a{
+    color: black;
+    font-size: 16px;
+}
+.experienc h1{
+    background-color: rgb(43, 183, 248);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    padding:20px 0px;
+}
+.services{
+    background-image: url(images/dream-bg2.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: bottom left;
+    height: 500px;
+    border: 0px;
+}
+.service-left{
+    background-color: rgb(240, 239, 239);
+    height: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left:6px solid deeppink;
+    box-shadow: 2px 5px 8px rgb(0, 0, 8);
+}
+.service-left:hover{
+    height: 280px;
+    padding: 8px;
+    border:0px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #FF1F77;
+}
+.service-right{
+    background-color: rgb(240, 239, 239);
+    height: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(22, 19, 219);
+    box-shadow: 2px 5px 8px rgb(0, 0, 8);
+}
+.service-right:hover{
+    height: 280px;
+    padding: 8px;
+    border:0px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(22, 19, 219);
+}
+.footer{
+    background-color: rgb(30, 1, 68);
+    height: 40px;    
+}
+.fot-left{
+    margin-top: 10px;
+    color: darkorange;
+    width: 60%;
+    text-align: center;
+    float: left;
+}
+.fot-right{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    
+}
+i{
+    margin: 0px 20px;
+    font-size: 25px;
+    color: rgb(248, 248, 237);
+   
+}
+i:hover{
+    font-size: larger;    
+    color:darkorange;
+    
+}
+/*------Start  manubar section ------*/
+
+/*------Start  About Me section ------*/
+
+/*------Start  header section ------*/
+
+/*------Start  header section ------*/
